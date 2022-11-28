@@ -1,0 +1,36 @@
+
+# datasource config
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SpringMyProject
+    username: postgres
+    password: yusupov2002
+    driver: org.postgresql.Driver
+
+  # hibernate config
+  hibernate:
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+    show_sql: true
+    hbm2ddl:
+      auto: update
+    cache:
+      use_second_level_cache: false
+      use_query_cache: false
+    maximum.pool.size: 20
+    idle:
+      count: 10
+      timeout: 600000
+
+
+application:
+ name: doctors_report
+server:
+  error:
+  whitelabel:
+  enabled: false
+mvc:
+  throw-exception-if-no-handler-found: true
+servlet:
+  multipart:
+    max-file-size: 500MB
+    max-request-size: 500MB

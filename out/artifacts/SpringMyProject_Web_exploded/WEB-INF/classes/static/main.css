@@ -1,0 +1,100 @@
+.register_form {
+    background: cadetblue;
+}
+
+.register_section {
+    align-content: center;
+}
+
+.registerDiv {
+    text-align: center;
+    margin: 0 auto;
+    width: 80% /* value of your choice which suits your alignment */
+}
+
+.signup-content {
+    background: #fff;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    border-radius: 2px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    padding: 35px;
+}
+.add-report-content {
+    background: #fff;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    border-radius: 2px;
+    width: 400px;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    padding: 35px;
+}
+.main-home {
+    background: #faf5f5;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    border-radius: 2px;
+    width: 800px;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    padding: 35px;
+}
+
+.table-reports{
+    margin-left: 50px;
+}
+
+.column{
+    margin-left: 60px;
+    padding: 30px;
+}
+.column-row{
+    margin-left: 60px;
+    padding: 50px;
+}
+
+.signup-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.form-item {
+    margin-bottom: 18px;
+}
+
+
+.form-control:hover, .form-control:focus, .form-control:active {
+    border-color: #40a9ff;
+    outline: 0;
+    border-right-width: 1px!important;
+}
+
+.form-control:focus, .form-control:active {
+    box-shadow: 0 0 0 2px rgba(24,144,255,.2);
+}
+
+.form-control.invalid {
+    border-color: #f5222d;
+}
+
+.form-control.invalid:focus, .form-control.invalid:active {
+    box-shadow: 0 0 0 2px rgba(245,34,45,.2);
+}
+
+.form-control[disabled], fieldset[disabled] .form-control {
+    cursor: not-allowed;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #f6f8fa;
+    opacity: 1;
+}
